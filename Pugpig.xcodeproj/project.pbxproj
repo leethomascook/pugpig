@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A501AFE713A1216C000A1233 /* KGStartupView.h in Headers */ = {isa = PBXBuildFile; fileRef = A501AFE513A1216C000A1233 /* KGStartupView.h */; };
+		A501AFE813A1216C000A1233 /* KGStartupView.m in Sources */ = {isa = PBXBuildFile; fileRef = A501AFE613A1216C000A1233 /* KGStartupView.m */; };
+		A502D87B1385928300D49283 /* KGPagedDocControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A52A70FA137ACD0800CF15B9 /* KGPagedDocControl.m */; };
+		A502D87C1385928300D49283 /* KGPagedDocControlImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = A543F9FA1381420B00C49D73 /* KGPagedDocControlImplementation.m */; };
+		A502D87D1385928300D49283 /* KGPagedDocThumbnailControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A54594B8137D686700AF86CA /* KGPagedDocThumbnailControl.m */; };
+		A502D87E1385928300D49283 /* KGPagedDocThumbnailControlImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = A543F9F71381416500C49D73 /* KGPagedDocThumbnailControlImplementation.m */; };
+		A502D87F1385928300D49283 /* KGPagedDocThumbnailContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A543F9F113813F3F00C49D73 /* KGPagedDocThumbnailContentView.m */; };
+		A502D8801385928300D49283 /* KGLocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A514478B137DB95C003662FC /* KGLocalFileDataSource.m */; };
+		A502D8811385928300D49283 /* KGInMemoryImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE111E137C1D6800B0AB03 /* KGInMemoryImageStore.m */; };
+		A502D8821385928300D49283 /* KGDiskImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 379DB60B1385582800C4F7FF /* KGDiskImageStore.m */; };
+		A502D8831385928300D49283 /* UIWebView+KGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A52A7104137AD87800CF15B9 /* UIWebView+KGAdditions.m */; };
+		A5A9ED4B139E27A900D1D80B /* KGCappedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A9ED49139E27A900D1D80B /* KGCappedScrollView.h */; };
+		A5A9ED4C139E27A900D1D80B /* KGCappedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A9ED4A139E27A900D1D80B /* KGCappedScrollView.m */; };
+		A5B7A9C0138596320038A795 /* Pugpig.h in Headers */ = {isa = PBXBuildFile; fileRef = A52A713B137BD37C00CF15B9 /* Pugpig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5B7A9C11385969C0038A795 /* KGLocalFileDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A514478A137DB95C003662FC /* KGLocalFileDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5B7A9C21385969C0038A795 /* KGInMemoryImageStore.h in Headers */ = {isa = PBXBuildFile; fileRef = A5BE111D137C1D6800B0AB03 /* KGInMemoryImageStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5B7A9C31385969C0038A795 /* KGDiskImageStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 379DB608138557F900C4F7FF /* KGDiskImageStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5B7A9C4138596BA0038A795 /* KGPagedDocControl.h in Headers */ = {isa = PBXBuildFile; fileRef = A52A70F9137ACD0800CF15B9 /* KGPagedDocControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5B7A9C5138596BA0038A795 /* KGPagedDocControlDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A5BE37CC13851D400065BC21 /* KGPagedDocControlDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5B7A9C6138596BA0038A795 /* KGPagedDocControlDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A52A7107137AF37200CF15B9 /* KGPagedDocControlDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5B7A9C7138596BA0038A795 /* KGPagedDocControlImageStore.h in Headers */ = {isa = PBXBuildFile; fileRef = A5144783137DB422003662FC /* KGPagedDocControlImageStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5B7A9C8138596BA0038A795 /* KGPagedDocControlNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = A514478F137DBF5E003662FC /* KGPagedDocControlNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5B7A9C9138596BA0038A795 /* KGPagedDocThumbnailControl.h in Headers */ = {isa = PBXBuildFile; fileRef = A54594B7137D686700AF86CA /* KGPagedDocThumbnailControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5B7A9D5138597DD0038A795 /* KGOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = A5144788137DB819003662FC /* KGOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		379DB608138557F900C4F7FF /* KGDiskImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGDiskImageStore.h; sourceTree = "<group>"; };
+		379DB60B1385582800C4F7FF /* KGDiskImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGDiskImageStore.m; sourceTree = "<group>"; };
+		A501AFE513A1216C000A1233 /* KGStartupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGStartupView.h; sourceTree = "<group>"; };
+		A501AFE613A1216C000A1233 /* KGStartupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGStartupView.m; sourceTree = "<group>"; };
+		A502D86913858EDC00D49283 /* Pugpig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pugpig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A502D87713858FF800D49283 /* Pugpig-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pugpig-Info.plist"; sourceTree = "<group>"; };
+		A5144783137DB422003662FC /* KGPagedDocControlImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGPagedDocControlImageStore.h; sourceTree = "<group>"; };
+		A5144788137DB819003662FC /* KGOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGOrientation.h; sourceTree = "<group>"; };
+		A514478A137DB95C003662FC /* KGLocalFileDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGLocalFileDataSource.h; sourceTree = "<group>"; };
+		A514478B137DB95C003662FC /* KGLocalFileDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGLocalFileDataSource.m; sourceTree = "<group>"; };
+		A514478F137DBF5E003662FC /* KGPagedDocControlNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGPagedDocControlNavigator.h; sourceTree = "<group>"; };
+		A52A70E7137AC86400CF15B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A52A70EB137AC86400CF15B9 /* Pugpig-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pugpig-Prefix.pch"; sourceTree = "<group>"; };
+		A52A70F9137ACD0800CF15B9 /* KGPagedDocControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGPagedDocControl.h; sourceTree = "<group>"; };
+		A52A70FA137ACD0800CF15B9 /* KGPagedDocControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGPagedDocControl.m; sourceTree = "<group>"; };
+		A52A70FD137ACE9500CF15B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A52A7103137AD87800CF15B9 /* UIWebView+KGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+KGAdditions.h"; sourceTree = "<group>"; };
+		A52A7104137AD87800CF15B9 /* UIWebView+KGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+KGAdditions.m"; sourceTree = "<group>"; };
+		A52A7107137AF37200CF15B9 /* KGPagedDocControlDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGPagedDocControlDataSource.h; sourceTree = "<group>"; };
+		A52A713B137BD37C00CF15B9 /* Pugpig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pugpig.h; sourceTree = "<group>"; };
+		A543F9F013813F3F00C49D73 /* KGPagedDocThumbnailContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGPagedDocThumbnailContentView.h; sourceTree = "<group>"; };
+		A543F9F113813F3F00C49D73 /* KGPagedDocThumbnailContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGPagedDocThumbnailContentView.m; sourceTree = "<group>"; };
+		A543F9F513813FD600C49D73 /* KGPagedDocThumbnailControlImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGPagedDocThumbnailControlImplementation.h; sourceTree = "<group>"; };
+		A543F9F71381416500C49D73 /* KGPagedDocThumbnailControlImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGPagedDocThumbnailControlImplementation.m; sourceTree = "<group>"; };
+		A543F9F91381420B00C49D73 /* KGPagedDocControlImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGPagedDocControlImplementation.h; sourceTree = "<group>"; };
+		A543F9FA1381420B00C49D73 /* KGPagedDocControlImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGPagedDocControlImplementation.m; sourceTree = "<group>"; };
+		A54594B7137D686700AF86CA /* KGPagedDocThumbnailControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGPagedDocThumbnailControl.h; sourceTree = "<group>"; };
+		A54594B8137D686700AF86CA /* KGPagedDocThumbnailControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGPagedDocThumbnailControl.m; sourceTree = "<group>"; };
+		A5A9ED49139E27A900D1D80B /* KGCappedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGCappedScrollView.h; sourceTree = "<group>"; };
+		A5A9ED4A139E27A900D1D80B /* KGCappedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGCappedScrollView.m; sourceTree = "<group>"; };
+		A5BE111D137C1D6800B0AB03 /* KGInMemoryImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGInMemoryImageStore.h; sourceTree = "<group>"; };
+		A5BE111E137C1D6800B0AB03 /* KGInMemoryImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGInMemoryImageStore.m; sourceTree = "<group>"; };
+		A5BE37CC13851D400065BC21 /* KGPagedDocControlDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGPagedDocControlDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A502D86613858EDC00D49283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A52A70D9137AC86400CF15B9 = {
+			isa = PBXGroup;
+			children = (
+				A52A70E9137AC86400CF15B9 /* Pugpig */,
+				A52A70E6137AC86400CF15B9 /* Frameworks */,
+				A52A70E5137AC86400CF15B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A52A70E5137AC86400CF15B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A502D86913858EDC00D49283 /* Pugpig.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A52A70E6137AC86400CF15B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A52A70FD137ACE9500CF15B9 /* UIKit.framework */,
+				A52A70E7137AC86400CF15B9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A52A70E9137AC86400CF15B9 /* Pugpig */ = {
+			isa = PBXGroup;
+			children = (
+				A57B7C7F138447900033678A /* Paged Document Control */,
+				A57B7C81138447BB0033678A /* Paged Document Thumbnail Control */,
+				A57B7C83138448580033678A /* Data Sources */,
+				A57B7C84138448640033678A /* Image Stores */,
+				A52A70EA137AC86400CF15B9 /* Supporting Files */,
+				A57B7C82138447ED0033678A /* Additions */,
+			);
+			path = Pugpig;
+			sourceTree = "<group>";
+		};
+		A52A70EA137AC86400CF15B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A502D87713858FF800D49283 /* Pugpig-Info.plist */,
+				A52A713B137BD37C00CF15B9 /* Pugpig.h */,
+				A52A70EB137AC86400CF15B9 /* Pugpig-Prefix.pch */,
+				A5144788137DB819003662FC /* KGOrientation.h */,
+				A5A9ED49139E27A900D1D80B /* KGCappedScrollView.h */,
+				A5A9ED4A139E27A900D1D80B /* KGCappedScrollView.m */,
+				A501AFE513A1216C000A1233 /* KGStartupView.h */,
+				A501AFE613A1216C000A1233 /* KGStartupView.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A57B7C7F138447900033678A /* Paged Document Control */ = {
+			isa = PBXGroup;
+			children = (
+				A52A70F9137ACD0800CF15B9 /* KGPagedDocControl.h */,
+				A52A70FA137ACD0800CF15B9 /* KGPagedDocControl.m */,
+				A543F9F91381420B00C49D73 /* KGPagedDocControlImplementation.h */,
+				A543F9FA1381420B00C49D73 /* KGPagedDocControlImplementation.m */,
+				A5BE37CC13851D400065BC21 /* KGPagedDocControlDelegate.h */,
+				A52A7107137AF37200CF15B9 /* KGPagedDocControlDataSource.h */,
+				A5144783137DB422003662FC /* KGPagedDocControlImageStore.h */,
+				A514478F137DBF5E003662FC /* KGPagedDocControlNavigator.h */,
+			);
+			name = "Paged Document Control";
+			sourceTree = "<group>";
+		};
+		A57B7C81138447BB0033678A /* Paged Document Thumbnail Control */ = {
+			isa = PBXGroup;
+			children = (
+				A54594B7137D686700AF86CA /* KGPagedDocThumbnailControl.h */,
+				A54594B8137D686700AF86CA /* KGPagedDocThumbnailControl.m */,
+				A543F9F513813FD600C49D73 /* KGPagedDocThumbnailControlImplementation.h */,
+				A543F9F71381416500C49D73 /* KGPagedDocThumbnailControlImplementation.m */,
+				A543F9F013813F3F00C49D73 /* KGPagedDocThumbnailContentView.h */,
+				A543F9F113813F3F00C49D73 /* KGPagedDocThumbnailContentView.m */,
+			);
+			name = "Paged Document Thumbnail Control";
+			sourceTree = "<group>";
+		};
+		A57B7C82138447ED0033678A /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				A52A7103137AD87800CF15B9 /* UIWebView+KGAdditions.h */,
+				A52A7104137AD87800CF15B9 /* UIWebView+KGAdditions.m */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		A57B7C83138448580033678A /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A514478A137DB95C003662FC /* KGLocalFileDataSource.h */,
+				A514478B137DB95C003662FC /* KGLocalFileDataSource.m */,
+			);
+			name = "Data Sources";
+			sourceTree = "<group>";
+		};
+		A57B7C84138448640033678A /* Image Stores */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE111D137C1D6800B0AB03 /* KGInMemoryImageStore.h */,
+				A5BE111E137C1D6800B0AB03 /* KGInMemoryImageStore.m */,
+				379DB608138557F900C4F7FF /* KGDiskImageStore.h */,
+				379DB60B1385582800C4F7FF /* KGDiskImageStore.m */,
+			);
+			name = "Image Stores";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A5B7A9BE138596120038A795 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B7A9C4138596BA0038A795 /* KGPagedDocControl.h in Headers */,
+				A5B7A9C5138596BA0038A795 /* KGPagedDocControlDelegate.h in Headers */,
+				A5B7A9C6138596BA0038A795 /* KGPagedDocControlDataSource.h in Headers */,
+				A5B7A9C7138596BA0038A795 /* KGPagedDocControlImageStore.h in Headers */,
+				A5B7A9C8138596BA0038A795 /* KGPagedDocControlNavigator.h in Headers */,
+				A5B7A9C9138596BA0038A795 /* KGPagedDocThumbnailControl.h in Headers */,
+				A5B7A9D5138597DD0038A795 /* KGOrientation.h in Headers */,
+				A5B7A9C0138596320038A795 /* Pugpig.h in Headers */,
+				A5B7A9C11385969C0038A795 /* KGLocalFileDataSource.h in Headers */,
+				A5B7A9C21385969C0038A795 /* KGInMemoryImageStore.h in Headers */,
+				A5B7A9C31385969C0038A795 /* KGDiskImageStore.h in Headers */,
+				A5A9ED4B139E27A900D1D80B /* KGCappedScrollView.h in Headers */,
+				A501AFE713A1216C000A1233 /* KGStartupView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A502D86813858EDC00D49283 /* Pugpig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A502D87513858EDC00D49283 /* Build configuration list for PBXNativeTarget "Pugpig" */;
+			buildPhases = (
+				A502D86513858EDC00D49283 /* Sources */,
+				A502D86613858EDC00D49283 /* Frameworks */,
+				A502D86713858EDC00D49283 /* Resources */,
+				A5B7A9BE138596120038A795 /* Headers */,
+				A502D8861385931500D49283 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pugpig;
+			productName = Pugpig;
+			productReference = A502D86913858EDC00D49283 /* Pugpig.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A52A70DB137AC86400CF15B9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A52A70DE137AC86400CF15B9 /* Build configuration list for PBXProject "Pugpig" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A52A70D9137AC86400CF15B9;
+			productRefGroup = A52A70E5137AC86400CF15B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A502D86813858EDC00D49283 /* Pugpig */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A502D86713858EDC00D49283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A502D8861385931500D49283 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# The purpose of this script is to build a universal version of library so it can be used in both device and simulator builds.\n# The code is largely based on a script by Adam Martin who in turn based his script on one by Eonil.\n# For more info see http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n\n\n#####################[ part 1 ]##################\n# First, work out the BASESDK version number (NB: Apple ought to report this, but they hide it)\n#    (incidental: searching for substrings in sh is a nightmare! Sob)\n\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n\n# Next, work out if we're in SIM or DEVICE\n\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\n#####################[ part 2 ]##################\n#\n# IF this is the original invocation, invoke WHATEVER other builds are required\n#\n# Xcode is already building ONE target...\n#\n# ...but this is a LIBRARY, so Apple is wrong to set it to build just one.\n# ...we need to build ALL targets\n# ...we MUST NOT re-build the target that is ALREADY being built: Xcode WILL CRASH YOUR COMPUTER if you try this (infinite recursion!)\n#\n#\n# So: build ONLY the missing platforms/configurations.\n\nif [ \"true\" = ${ALREADYINVOKED} ]\nthen\nexit 0\nelse\n# CRITICAL:\n# Prevent infinite recursion (Xcode sucks)\nexport ALREADYINVOKED=\"true\"\n\necho \"Build missing SDK ${OTHER_SDK_TO_BUILD}\"\nxcodebuild -configuration \"${CONFIGURATION}\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\nfi\n\nACTION=\"build\"\n\n# Merge all platform binaries as a fat binary for each configurations.\n\nCURRENTCONFIG_DEVICE_DIR=${SYMROOT}/${CONFIGURATION}-iphoneos\nCURRENTCONFIG_SIMULATOR_DIR=${SYMROOT}/${CONFIGURATION}-iphonesimulator\nCURRENTCONFIG_UNIVERSAL_DIR=${SYMROOT}/${CONFIGURATION}-universal\nCURRENTCONFIG_PRIMARY_DIR=${SYMROOT}/${CONFIGURATION}-${PLATFORM_NAME}\n\n# ... remove the products of previous runs of this script\n#      NB: this directory is ONLY created by this script - it should be safe to delete!\n\nrm -rf \"${CURRENTCONFIG_UNIVERSAL_DIR}\"\nmkdir \"${CURRENTCONFIG_UNIVERSAL_DIR}\"\nmkdir \"${CURRENTCONFIG_UNIVERSAL_DIR}/${TARGET_NAME}.framework\"\n\n#\necho \"Merge Library ${EXECUTABLE_NAME}\"\nlipo -create -output \"${CURRENTCONFIG_UNIVERSAL_DIR}/${TARGET_NAME}.framework/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${TARGET_NAME}.framework/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${TARGET_NAME}.framework/${EXECUTABLE_NAME}\"\n\nif [ -d \"${CURRENTCONFIG_PRIMARY_DIR}/${TARGET_NAME}.framework/Headers\" ]\nthen\necho \"Copy Headers\"\nmkdir \"${CURRENTCONFIG_UNIVERSAL_DIR}/${TARGET_NAME}.framework/Headers\"\ncp \"${CURRENTCONFIG_PRIMARY_DIR}/${TARGET_NAME}.framework/Headers\"/* \"${CURRENTCONFIG_UNIVERSAL_DIR}/${TARGET_NAME}.framework/Headers\"\n                                                                   fi\n                                                                   \n                                                                   echo \"Copy info.plist\"\n                                                                   cp \"${CURRENTCONFIG_PRIMARY_DIR}/${TARGET_NAME}.framework/info.plist\" \"${CURRENTCONFIG_UNIVERSAL_DIR}/${TARGET_NAME}.framework\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A502D86513858EDC00D49283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A502D87B1385928300D49283 /* KGPagedDocControl.m in Sources */,
+				A502D87C1385928300D49283 /* KGPagedDocControlImplementation.m in Sources */,
+				A502D87D1385928300D49283 /* KGPagedDocThumbnailControl.m in Sources */,
+				A502D87E1385928300D49283 /* KGPagedDocThumbnailControlImplementation.m in Sources */,
+				A502D87F1385928300D49283 /* KGPagedDocThumbnailContentView.m in Sources */,
+				A502D8801385928300D49283 /* KGLocalFileDataSource.m in Sources */,
+				A502D8811385928300D49283 /* KGInMemoryImageStore.m in Sources */,
+				A502D8821385928300D49283 /* KGDiskImageStore.m in Sources */,
+				A502D8831385928300D49283 /* UIWebView+KGAdditions.m in Sources */,
+				A5A9ED4C139E27A900D1D80B /* KGCappedScrollView.m in Sources */,
+				A501AFE813A1216C000A1233 /* KGStartupView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A502D87313858EDC00D49283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pugpig/Pugpig-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Pugpig/Pugpig-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		A502D87413858EDC00D49283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pugpig/Pugpig-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Pugpig/Pugpig-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		A52A70EC137AC86400CF15B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A52A70ED137AC86400CF15B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A502D87513858EDC00D49283 /* Build configuration list for PBXNativeTarget "Pugpig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A502D87313858EDC00D49283 /* Debug */,
+				A502D87413858EDC00D49283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A52A70DE137AC86400CF15B9 /* Build configuration list for PBXProject "Pugpig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52A70EC137AC86400CF15B9 /* Debug */,
+				A52A70ED137AC86400CF15B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A52A70DB137AC86400CF15B9 /* Project object */;
+}
